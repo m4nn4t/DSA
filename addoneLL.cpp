@@ -77,9 +77,9 @@ Node* add1LL(Node* head){
         current->next=newnode;
         carry=sum/10;
 
-        // if(carry==0){
-        //     break;
-        // }
+        if(carry==0){
+            break;
+        }
 
         temp=temp->next;
     }
